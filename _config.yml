@@ -1,5 +1,7 @@
 theme: jekyll-theme-cayman
 
+repository: MyUser/my-repo
+
 macos: 0
 windows: 0
 pypi: https://pypi.org/project/pushing-outshoot-unfold/
