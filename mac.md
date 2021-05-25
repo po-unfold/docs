@@ -1,6 +1,7 @@
 ---
+title: Mac Download
 permalink: /mac/
 layout: download
-dl: false
+dl: true
 ext: .dmg
 ---
