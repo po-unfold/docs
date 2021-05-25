@@ -3,14 +3,17 @@ layout: main
 ---
 <h2>Version <span style="font-weight:bold;" id="version"></span></h2>
 <h3>Your download will start in <span style="font-weight:bold;" id="count">5</span> seconds...</h3>
+<a id="direct">Not working? Click here to download directly.</a>
+
 {{ content }}
 <script>
 releases_url = "https://github.com/po-unfold/game/releases/latest";
 releases_api = "https://api.github.com/repos/po-unfold/game/releases/latest";
 function download(ext) {
+	document.getElementById('direct').href = releases_url;
 	fetch(releases_api)
-	.then((r)=>r.text())
-	.then((t)=>{
+	.then(function(r){return r.text()})
+	.then(function(t){
 		t = JSON.parse(t);
 		document.getElementById('version').innerText = t.tag_name;
 		for (num=0;num<t.assets.length;num++) {
@@ -29,7 +32,7 @@ function download(ext) {
 			}
 		}
 	})
-	.catch(()=>{
+	.catch(function(){
 		window.location.replace(releases_url);
 	})
 }
