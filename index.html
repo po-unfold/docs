@@ -13,16 +13,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content" tabindex="0">Skip to the content.</a>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.macos }}" class="btn">Download for MacOS</a>
-      <a href="{{ site.windows }}" class="btn">Download for Windows</a>
-      <br>
-      <a href="{{ site.pypi }}" class="btn">Python Module</a>
-      <a href="{{ site.github.repository_url }}" class="btn">View Source</a>
+      <a href="{{ site.macos }}" class="btn">MacOS</a>
+      <a href="{{ site.windows }}" class="btn">Windows</a>
     </header>
 
     <main id="content" class="main-content" role="main">
