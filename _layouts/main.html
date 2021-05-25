@@ -13,7 +13,9 @@
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
-      {% if page.dl %}{% else %}
+      {% if page.dl %}
+      <a href="/" class="btn">Home</a>
+      {% else %}
       <a href="{{ site.macos }}" class="btn">MacOS</a>
       <a href="{{ site.windows }}" class="btn">Windows</a>
       {% endif %}
