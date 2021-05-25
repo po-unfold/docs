@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 
 repository: po-unfold/docs
 
-macos: 0
-windows: 0
+title: Pushing Outshoot Unfold
+macos: /mac/
+windows: /windows/
 pypi: https://pypi.org/project/pushing-outshoot-unfold/
