@@ -1,5 +1,7 @@
-<style>.site-footer-credits {display: none;}</style>
+<style>.site-footer{display:none;}</style>
 
-# pou-unfold.github.io
+# Pushing Outshoot Unfold
+
+*remembering the pandemic*
 
 Website for code and instructions
