@@ -1,7 +1,3 @@
-<style>.site-footer{display:none;}</style>
+# Website
 
-# Pushing Outshoot Unfold
-
-*remembering the pandemic*
-
-Website for code and instructions
+source for the website
