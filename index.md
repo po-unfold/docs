@@ -1,6 +1,6 @@
 ---
 layout: main
 ---
-# Pushing Outshoot Unfold
+# {{site.game}}
 
 *Remembering the Pandemic*
