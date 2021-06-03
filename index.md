@@ -17,11 +17,9 @@ There are a couple ways you can install our game:
  - Download the [Mac app](/windows)
  - Install using the <a href="https://pypi.org/project/pushing_outshoot_unfold/">package</a>:
 
-   **Requirements:**
-   - Python 3.6+
-   - `pip`
-  
-    <br>
+	**Requirements:**
+	- Python 3.6+
+	- `pip`
   
 	```bash
 	pip3 install pushing_outshoot_unfold # install the package
@@ -37,8 +35,6 @@ There are a couple ways you can install our game:
 	- the Python `setuptools` module
 	- `pip`
 	- Python 3.6+
-  
-  <br>
   
 	```bash
 	# checkout code
