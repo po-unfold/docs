@@ -53,7 +53,7 @@ There are a couple ways you can install our game:
 	```
   
 ## How to play
-Once you have installed the app, open it up by double clicking it, or by running `pou` in the command line if you used `pip`. A window should show, asiking you if you would like to have sound.
+Once you have installed the app, open it up by double clicking it, or by running `pou` in the command line if you used `pip`. A window should show, asking you if you would like to have sound.
 
 Type either `1` or `0` for sound or no sound, and be sure to resize the window to the shape you would like it before hitting enter.
 
