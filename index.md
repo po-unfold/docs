@@ -1,6 +1,7 @@
 ---
 layout: main
 ---
+
 # {{site.game}}
 *remembering the pandemic*
 
@@ -14,8 +15,7 @@ layout: main
 There are a couple ways you can install our game:
  - Download the [Windows app](/windows)
  - Download the [Mac app](/windows)
- - <details>
-    <summary>Install using the <a href="https://pypi.org/project/pushing_outshoot_unfold/">package</a> (click to expand)</summary>
+ - Install using the <a href="https://pypi.org/project/pushing_outshoot_unfold/">package</a>:
 
    **Requirements:**
    - Python 3.6+
@@ -28,12 +28,9 @@ There are a couple ways you can install our game:
 	# you may need to use `pip` instead of `pip3`
 	pou # run the game
 	```
-  
-  </details>
-  
-- <details>
-  <summary>Build from the <a href="https://github.com/po-unfold/game">source</a> (click to expand)</summary>
-  
+    
+- Build from the <a href="https://github.com/po-unfold/game">source</a>:
+
 	**Requirements:**
 	*Only intended for \*nix users (MacOS, Linux, BSD). If you are on Windows, either TRY building this, or just use the download.*
 	- Git
@@ -54,6 +51,5 @@ There are a couple ways you can install our game:
 	ls # view output files
 	```
   
-  </details>
 ## How to play
 (work in progress...)
