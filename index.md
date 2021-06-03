@@ -7,11 +7,16 @@ layout: main
 
 ## General
 
-<iframe src="https://www.youtube-nocookie.com/embed/{{site.yt}}?modestbranding=1&showinfo=0&rel=0&color=white" width="560" height="315" frameborder="0"></iframe>
+<video width="320" height="240" autoplay>
+  <source src=",trailer_short.mp4" type="video/mp4">
+	<span style="color:red">Your browser does not support inline video. Click <a href="/trailer_short.mp4">here</a> to view seperately.</span>
+</video>
 
 {{site.game}} is a game about a teenager's experience throughout the Covid-19 pandemic of 2020-1. Our game is made up of our personal experiences, and we strive to be as accurate as possible.
 
-## Usage
+Confinement was created using Python. You can view the source code [here](https://github.com/po-unfold/game). 
+
+## Usage (skip to [how to play)](#how-to-play)
 There are a couple ways you can install our game:
  - Download the [Windows app](/windows)
  - Download the [Mac app](/windows)
@@ -48,4 +53,10 @@ There are a couple ways you can install our game:
 	```
   
 ## How to play
-(work in progress...)
+Once you have installed the app, open it up by double clicking it, or by running `pou` in the command line if you used `pip`. A window should show, asiking you if you would like to have sound.
+
+Type either `1` or `0` for sound or no sound, and be sure to resize the window to the shape you would like it before hitting enter.
+
+The game progresses day by day, with different scenarios each time. Some days will have interactive parts in them that you will have to complete to move on.
+
+If at any time you would like to exit the game, simply push `ctrl+c` to exit. Your progress is not saved.
