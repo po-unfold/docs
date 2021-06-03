@@ -19,7 +19,7 @@ Confinement was created using Python. You can view the source code [here](https:
 ## Usage (skip to [how to play)](#how-to-play)
 There are a couple ways you can install our game:
  - Download the [Windows app](/windows)
- - Download the [Mac app](/windows)
+ - Download the [Mac app](/mac)
  - Install using the <a href="https://pypi.org/project/pushing_outshoot_unfold/">package</a>:
 
 	**Requirements:**
