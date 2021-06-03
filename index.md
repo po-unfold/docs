@@ -7,7 +7,7 @@ layout: main
 
 ## General
 
-<video width="320" height="240" autoplay>
+<video width="320" height="240" autoplay controls style="border: 1px solid black" title="video (loading)">
   <source src="/trailer_short.mp4" type="video/mp4">
 	<span style="color:red">Your browser does not support inline video. Click <a href="/trailer_short.mp4">here</a> to view seperately.</span>
 </video>
