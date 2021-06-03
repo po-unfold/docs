@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 
 repository: po-unfold/docs
 
-title: Pushing Outshoot Unfold
-game: [name to be announced...]
+title: Confinement
+game: Confinement
 
 macos: /mac/
 windows: /windows/
